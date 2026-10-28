@@ -1,0 +1,9 @@
+{
+  "name": "calibration-kit",
+  "version": "1.0.0",
+  "description": "Compare AI quotes with a shop's manual quotes, flag variances over 5%, and gate go-live on a pass rate.",
+  "bin": { "calibrate": "calibrate.js" },
+  "scripts": { "test": "node --test", "demo": "node calibrate.js data/sample-quotes.csv --report report.md" },
+  "author": "Chaudhry Usman <usman@trxmode.com>",
+  "license": "MIT"
+}
